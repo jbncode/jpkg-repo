@@ -1,0 +1,17 @@
+{
+    "description" : "Fast, scalable, distributed revision control system",
+    "homepage" : "http://www.git-scm.com/",
+
+    "src_url" : "https://github.com/git/git/archive/v${PV}.tar.gz -> ${P}.tar.gz",
+
+    "depends" : [
+        "curl",
+        "zlib",
+        "expat",
+        "openssl",
+        "perl",
+        "pcre"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

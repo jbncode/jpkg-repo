@@ -1,0 +1,10 @@
+{
+    "description" : "Package config system that manages compile/link flags",
+    "homepage" : "https://pkgconfig.freedesktop.org/wiki/",
+
+    "src_url" : "https://pkgconfig.freedesktop.org/releases/pkg-config-${PV}.tar.gz",
+
+    "compile_dir" : "pkg-config-${PV}",
+
+    "buildscript" : "${PN}.bash"
+}

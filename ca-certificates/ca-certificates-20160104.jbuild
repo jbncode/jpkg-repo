@@ -1,0 +1,14 @@
+{
+    "description" : "Common CA Certificates PEM files",
+    "homepage" : "http://packages.debian.org/sid/ca-certificates",
+
+    "src_url" : "http://ftp.us.debian.org/debian/pool/main/c/ca-certificates/ca-certificates_${PV}_all.deb",
+
+    "compile_dir" : "NONE",
+
+    "depends" : [
+        "xz-utils"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

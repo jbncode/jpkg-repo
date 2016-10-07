@@ -1,0 +1,16 @@
+{
+    "description" : "Cross platform Make",
+    "homepage" : "http://www.cmake.org/",
+
+    "src_url" : "https://cmake.org/files/v3.6/${P}.tar.gz",
+
+    "use" : "+ncurses",
+
+    "depends" : [
+        "libarchive",
+        "expat",
+        "curl",
+        "zlib",
+        "ncurses ? ncurses"
+    ]
+}

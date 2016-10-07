@@ -1,0 +1,12 @@
+{
+    "description" : "A high-quality data compressor",
+    "homepage" : "http://www.bzip.org/",
+
+    "src_url" : "http://www.bzip.org/${PV}/${P}.tar.gz",
+
+    "depends" : [
+        "sed"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

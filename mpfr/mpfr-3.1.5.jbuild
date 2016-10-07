@@ -1,0 +1,10 @@
+{
+    "description" : "Library for multiple-precision floating-point computations with exact rounding",
+    "homepage" : "http://www.mpfr.org/",
+
+    "src_url" : "http://www.mpfr.org/mpfr-current/${P}.tar.bz2",
+
+    "depends" : [
+        "gmp"
+    ]
+}

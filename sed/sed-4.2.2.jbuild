@@ -1,0 +1,6 @@
+{
+    "description" : "Stream editor",
+    "homepage" : "http://sed.sourceforge.net/",
+
+    "src_url" : "ftp://ftp.gnu.org/gnu/${PN}/${P}.tar.gz"
+}

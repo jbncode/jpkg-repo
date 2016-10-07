@@ -1,0 +1,13 @@
+{
+    "description" : "A Client that groks URLs",
+    "homepage" : "https://curl.haxx.se/",
+
+    "src_url" : "https://curl.haxx.se/download/${P}.tar.bz2",
+
+    "depends" : [
+        "zlib",
+        "openssl"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

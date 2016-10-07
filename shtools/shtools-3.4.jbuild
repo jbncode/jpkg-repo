@@ -1,0 +1,17 @@
+{
+    "description" : "Tools for working with spherical harmonics",
+    "homepage" : "http://shtools.ipgp.fr/",
+
+    "src_url" : "https://github.com/SHTOOLS/SHTOOLS/archive/v${PV}.tar.gz -> ${P}.tar.gz",
+
+    "compile_dir" : "SHTOOLS-${PV}",
+
+    "depends" : [
+        "fftw",
+        "openblas",
+        "sed",
+        "need_fortran_compiler ? gcc"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

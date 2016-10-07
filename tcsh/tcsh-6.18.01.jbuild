@@ -1,0 +1,11 @@
+{
+    "description" : "Enhanced version of the Berkeley C shell (csh)",
+    "homepage" : "http://www.tcsh.org/",
+
+    "src_url" : "ftp://ftp.astron.com/pub/tcsh/old/${P}.tar.gz",
+
+    "depends" : [
+        "ncurses",
+        "gettext"
+    ]
+}

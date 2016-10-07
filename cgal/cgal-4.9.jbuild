@@ -1,0 +1,21 @@
+{
+    "description" : "C++ library for geometric algorithms and data structures",
+    "homepage" : "http://www.cgal.org/",
+
+    "src_url" : "https://github.com/CGAL/cgal/archive/releases/CGAL-${PV}.tar.gz -> ${P}.tar.gz",
+
+    "compile_dir" : "cgal-releases-CGAL-${PV}",
+
+    "base_buildscript" : "cmake",
+
+    "depends" : [
+        "cmake",
+        "boost",
+        "mpfr",
+        "gmp",
+        "zlib",
+        "pkgconfig"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

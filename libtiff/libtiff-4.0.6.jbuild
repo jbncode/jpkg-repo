@@ -1,0 +1,18 @@
+{
+    "description" : "Tag Image File Format (TIFF) library",
+    "homepage" : "http://www.remotesensing.org/libtiff/",
+
+    "src_url" : "http://download.osgeo.org/libtiff/tiff-${PV}.tar.gz",
+
+    "compile_dir" : "tiff-${PV}",
+
+    "use" : "+cxx +jpeg +lzma +zlib",
+
+    "depends" : [
+        "jpeg ? libjpeg-turbo",
+        "lzma ? xz-utils",
+        "zlib ? zlib"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

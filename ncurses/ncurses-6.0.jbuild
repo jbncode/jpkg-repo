@@ -1,0 +1,6 @@
+{
+    "description" : "console display library",
+    "homepage" : "https://www.gnu.org/software/ncurses/",
+
+    "src_url" : "ftp://ftp.gnu.org/gnu/ncurses/${P}.tar.gz"
+}

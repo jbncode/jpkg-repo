@@ -1,0 +1,10 @@
+{
+    "description" : "Portable Network Graphics library",
+    "homepage" : "http://www.libpng.org/",
+
+    "src_url" : "https://sourceforge.net/projects/libpng/files/libpng16/${PV}/${P}.tar.gz",
+
+    "depends" : [
+        "zlib"
+    ]
+}

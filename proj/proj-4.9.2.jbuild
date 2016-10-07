@@ -1,0 +1,6 @@
+{
+    "description" : "Proj.4 cartographic projection software",
+    "homepage" : "https://github.com/OSGeo/proj.4/wiki",
+
+    "src_url" : "http://download.osgeo.org/${PN}/${P}.tar.gz"
+}

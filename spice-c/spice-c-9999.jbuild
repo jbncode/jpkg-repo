@@ -1,0 +1,14 @@
+{
+    "description" : "NAIF Spice toolkit (C bindings)",
+    "homepage" : "http://naif.jpl.nasa.gov/naif/",
+
+    "src_url" : "http://naif.jpl.nasa.gov/pub/naif/toolkit/C/PC_Linux_GCC_64bit/packages/cspice.tar.Z",
+
+    "compile_dir" : "cspice",
+
+    "depends" : [
+        "tcsh"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

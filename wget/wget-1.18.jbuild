@@ -1,0 +1,17 @@
+{
+    "description" : "Network utility to retrieve files from the WWW",
+    "homepage" : "https://www.gnu.org/software/wget/",
+
+    "src_url" : "http://ftp.gnu.org/gnu/${PN}/${P}.tar.gz",
+
+    "use" : "+pcre +zlib",
+
+    "depends" : [
+        "pcre ? pcre",
+        "zlib ? zlib",
+        "pkgconfig",
+        "openssl"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

@@ -1,0 +1,14 @@
+{
+    "description" : "Use your favorite text editor to rename files",
+    "homepage" : "http://www.nongnu.org/renameutils/",
+
+    "src_url" : "http://download.savannah.gnu.org/releases/${PN}/${P}.tar.gz",
+
+    "depends" : [
+        "ncurses",
+        "readline",
+        "sed"
+    ],
+
+    "buildscript" : "${P}.bash"
+}

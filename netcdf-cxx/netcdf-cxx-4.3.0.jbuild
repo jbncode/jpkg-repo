@@ -1,0 +1,14 @@
+{
+    "description" : "C++ library for netCDF",
+    "homepage" : "http://www.unidata.ucar.edu/software/netcdf/",
+
+    "src_url" : "https://github.com/Unidata/netcdf-cxx4/archive/v${PV}.tar.gz -> ${P}.tar.gz",
+
+    "compile_dir" : "${PN}4-${PV}",
+
+    "depends" : [
+        "netcdf",
+        "zlib",
+        "curl"
+    ]
+}

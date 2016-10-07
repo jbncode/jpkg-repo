@@ -1,0 +1,14 @@
+{
+    "description" : "Fast library for the Discrete Fourier Transform",
+    "homepage" : "http://www.fftw.org/",
+
+    "src_url" : "http://www.fftw.org/${P}.tar.gz",
+
+    "use" : "+openmp need_fortran_compiler",
+
+    "depends" : [
+        "need_fortran_compiler ? gcc"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

@@ -1,0 +1,22 @@
+{
+    "description" : "Powerful map generator",
+    "homepage" : "http://gmt.soest.hawaii.edu/",
+
+    "src_url" : [
+        "ftp://ftp.soest.hawaii.edu/gmt/legacy/gmt-${PV}-src.tar.gz",
+        "ftp://ftp.soest.hawaii.edu/gmt/legacy/gshhg-gmt-2.3.5.tar.gz",
+        "ftp://ftp.soest.hawaii.edu/gmt/legacy/dcw-gmt-1.1.1.tar.gz"
+    ],
+
+    "compile_dir" : "gmt-${PV}",
+
+    "depends" : [
+        "cmake",
+        "netcdf",
+        "hdf5"
+    ],
+
+    "base_buildscript" : "cmake",
+
+    "buildscript" : "${PN}.bash"
+}

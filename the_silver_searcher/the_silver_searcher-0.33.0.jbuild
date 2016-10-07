@@ -1,0 +1,20 @@
+{
+    "description" : "A code-searching tool similar to ack, but faster",
+    "homepage" : "https://github.com/ggreer/the_silver_searcher",
+
+    "src_url" : "https://github.com/ggreer/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz",
+
+    "use" : "+lzma +zlib",
+
+    "depends" : [
+        "pcre",
+        "lzma ? xz-utils",
+        "zlib ? zlib",
+        "autoconf",
+        "automake",
+        "m4",
+        "pkgconfig"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

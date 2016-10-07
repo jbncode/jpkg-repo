@@ -1,0 +1,12 @@
+{
+    "description" : "Tool Command Language",
+    "homepage" : "http://www.tcl.tk/",
+
+    "src_url" : "https://sourceforge.net/projects/tcl/files/Tcl/${PV}/tcl${PV}-src.tar.gz",
+
+    "compile_dir" : "tcl${PV}/unix",
+
+    "depends" : [
+        "zlib"
+    ]
+}

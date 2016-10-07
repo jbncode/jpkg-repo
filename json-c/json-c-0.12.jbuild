@@ -1,0 +1,13 @@
+{
+    "description" : "A JSON implementation in C",
+    "homepage" : "https://github.com/json-c/json-c/wiki",
+
+    "src_url" : "https://s3.amazonaws.com/json-c_releases/releases/${P}.tar.gz",
+
+    "buildscript" : "${PN}.bash",
+
+    "depends" : [
+        "autoconf",
+        "sed"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "description" : "ack is a tool like grep, aimed at programmers with large trees of heterogeneous source code",
+    "homepage" : "http://betterthangrep.com/",
+
+    "src_url" : "http://beyondgrep.com/${P}-single-file",
+
+    "compile_dir" : "NONE",
+
+    "buildscript" : "${PN}.bash"
+}

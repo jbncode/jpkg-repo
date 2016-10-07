@@ -1,0 +1,15 @@
+{
+    "description" : "Fortran library for netCDF",
+    "homepage" : "http://www.unidata.ucar.edu/software/netcdf/",
+
+    "src_url" : "ftp://ftp.unidata.ucar.edu/pub/netcdf/${P}.tar.gz",
+
+    "use" : "need_fortran_compiler",
+
+    "depends" : [
+        "netcdf",
+        "zlib",
+        "curl",
+        "need_fortran_compiler ? gcc"
+    ]
+}
