@@ -1,0 +1,14 @@
+{
+    "description" : "The Environment Modules package provides for the dynamic modification of a user's environment via modulefiles",
+    "homepage" : "http://modules.sourceforge.net/",
+
+    "src_url" : "https://sourceforge.net/projects/modules/files/Modules/modules-${PV}/modules-${PV}.tar.bz2",
+
+    "compile_dir" : "modules-${PV}",
+
+    "depends" : [
+        "tcl"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

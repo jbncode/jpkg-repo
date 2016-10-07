@@ -1,0 +1,15 @@
+{
+    "description" : "Boost Libraries for C++",
+    "homepage" : "http://www.boost.org/",
+
+    "src_url" : "https://sourceforge.net/projects/boost/files/boost/${PV}/boost_1_62_0.tar.bz2",
+
+    "compile_dir" : "boost_1_62_0",
+
+    "depends" : [
+        "bzip2",
+        "zlib"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

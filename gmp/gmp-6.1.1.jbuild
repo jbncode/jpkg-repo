@@ -1,0 +1,10 @@
+{
+    "description" : "Library for arithmetic on arbitrary precision integers, rational numbers, and floating-point numbers",
+    "homepage" : "http://gmplib.org/",
+
+    "src_url" : "https://gmplib.org/download/${PN}/${P}.tar.bz2",
+
+    "depends" : [
+        "m4"
+    ]
+}

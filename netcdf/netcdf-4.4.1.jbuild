@@ -1,0 +1,17 @@
+{
+    "description" : "Scientific library and interface for array oriented data access",
+    "homepage" : "http://www.unidata.ucar.edu/software/netcdf/",
+
+    "src_url" : "ftp://ftp.unidata.ucar.edu/pub/netcdf/${P}.tar.gz",
+
+    "use" : "+hdf5",
+
+    "depends" : [
+        "hdf5 ? hdf5",
+        "curl",
+        "m4",
+        "zlib"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

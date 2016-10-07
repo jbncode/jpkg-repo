@@ -1,0 +1,10 @@
+{
+    "description" : "AsciiDoc is plain text human readable/writable document format",
+    "homepage" : "http://asciidoc.org/",
+
+    "src_url" : "https://sourceforge.net/projects/asciidoc/files/${PN}/${PV}/${P}.tar.gz",
+
+    "depends" : [
+        "python"
+    ]
+}

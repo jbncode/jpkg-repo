@@ -1,0 +1,8 @@
+{
+    "description" : "A fast, simple LZW file compressor",
+    "homepage" : "https://github.com/vapier/ncompress",
+
+    "src_url" : "https://github.com/vapier/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz",
+
+    "buildscript" : "${PN}.bash"
+}

@@ -1,0 +1,11 @@
+{
+    "description" : "A library for multiprecision complex arithmetic with exact rounding",
+    "homepage" : "http://mpc.multiprecision.org/",
+
+    "src_url" : "http://www.multiprecision.org/mpc/download/${P}.tar.gz",
+
+    "depends" : [
+        "gmp",
+        "mpfr"
+    ]
+}

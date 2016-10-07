@@ -1,0 +1,6 @@
+{
+    "description" : "Netwide Assembler",
+    "homepage" : "http://www.nasm.us/",
+
+    "src_url" : "http://www.nasm.us/pub/nasm/releasebuilds/${PV}/${P}.tar.bz2"
+}

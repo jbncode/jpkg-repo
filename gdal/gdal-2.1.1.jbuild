@@ -1,0 +1,21 @@
+{
+    "description" : "Translator library for raster geospatial data formats",
+    "homepage" : "http://www.gdal.org/",
+
+    "src_url" : "http://download.osgeo.org/${PN}/${PV}/${P}.tar.gz",
+
+    "use" : "+netcdf",
+
+    "depends" : [
+        "expat",
+        "json-c",
+        "pcre",
+        "libxml2",
+        "libtiff",
+        "libgeotiff",
+        "zlib",
+        "netcdf ? netcdf"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

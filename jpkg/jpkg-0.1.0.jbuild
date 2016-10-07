@@ -1,0 +1,14 @@
+{
+    "description" : "Jpkg package manager",
+    "homepage" : "https://github.com/jbncode/jpkg",
+
+    "src_url" : "https://github.com/jbncode/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz",
+
+    "depends" : [
+        "python"
+    ],
+
+    "base_buildscript" : "python",
+
+    "buildscript" : "${PN}.bash"
+}

@@ -1,0 +1,17 @@
+{
+    "description" : "An optimized BLAS library based on GotoBLAS2",
+    "homepage" : "http://www.openblas.net/",
+
+    "src_url" : "http://github.com/xianyi/OpenBLAS/archive/v${PV}.tar.gz -> ${P}.tar.gz",
+
+    "compile_dir" : "OpenBLAS-${PV}",
+
+    "use" : "need_fortran_compiler",
+
+    "depends" : [
+        "coreutils",
+        "need_fortran_compiler ? gcc"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

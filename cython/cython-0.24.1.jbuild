@@ -1,0 +1,14 @@
+{
+    "description" : "A Python to C compiler",
+    "homepage" : "http://cython.org https://pypi.python.org/pypi/Cython",
+
+    "src_url" : "https://pypi.python.org/packages/c6/fe/97319581905de40f1be7015a0ea1bd336a756f6249914b148a17eefa75dc/Cython-0.24.1.tar.gz",
+
+    "compile_dir" : "Cython-${PV}",
+
+    "depends" : [
+        "python"
+    ],
+
+    "base_buildscript" : "python"
+}

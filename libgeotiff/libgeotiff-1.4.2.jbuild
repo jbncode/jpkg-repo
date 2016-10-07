@@ -1,0 +1,13 @@
+{
+    "description" : "Library for reading TIFF files with embedded tags for geographic information",
+    "homepage" : "http://geotiff.osgeo.org/",
+
+    "src_url" : "http://download.osgeo.org/geotiff/${PN}/${P}.tar.gz",
+
+    "depends" : [
+        "libjpeg-turbo",
+        "libtiff",
+        "proj",
+        "zlib"
+    ]
+}

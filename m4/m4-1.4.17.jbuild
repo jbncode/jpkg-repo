@@ -1,0 +1,6 @@
+{
+    "description" : "GNU macro processor",
+    "homepage" : "https://www.gnu.org/software/m4/m4.html",
+
+    "src_url" : "http://ftp.gnu.org/gnu/${PN}/${P}.tar.bz2"
+}

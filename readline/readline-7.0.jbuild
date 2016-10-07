@@ -1,0 +1,10 @@
+{
+    "description" : "Another cute console display library",
+    "homepage" : "http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html",
+
+    "src_url" : "http://ftp.gnu.org/gnu/readline/${P}.tar.gz",
+
+    "depends" : [
+        "ncurses"
+    ]
+}

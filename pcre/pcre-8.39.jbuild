@@ -1,0 +1,17 @@
+{
+    "description" : "Perl-compatible regular expression library",
+    "homepage" : "http://www.pcre.org/",
+
+    "src_url" : "ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/${P}.tar.bz2",
+
+    "use" : "+bzip2 +cxx +zlib",
+
+    "depends" : [
+        "bzip2 ? bzip2",
+        "readline",
+        "ncurses",
+        "zlib ? zlib"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

@@ -1,0 +1,20 @@
+{
+    "description" : "Fast array and numerical python library",
+    "homepage" : "http://www.numpy.org/",
+
+    "use" : "need_fortran_compiler",
+
+    "src_url" : "https://github.com/numpy/numpy/archive/v${PV}.tar.gz -> ${P}.tar.gz",
+
+    "depends" : [
+        "pkgconfig",
+        "openblas",
+        "python",
+        "cython",
+        "need_fortran_compiler ? gcc"
+    ],
+
+    "base_buildscript" : "python",
+
+    "buildscript" : "${PN}.bash"
+}

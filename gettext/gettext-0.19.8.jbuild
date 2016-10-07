@@ -1,0 +1,15 @@
+{
+    "description" : "GNU locale utilities",
+    "homepage" : "https://www.gnu.org/software/gettext/",
+
+    "src_url" : "ftp://ftp.gnu.org/gnu/${PN}/${P}.tar.gz",
+
+    "depends" : [
+        "libiconv",
+        "libxml2",
+        "expat",
+        "ncurses"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

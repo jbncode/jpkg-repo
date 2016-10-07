@@ -1,0 +1,12 @@
+{
+    "description" : "Version 2 of the library to manipulate XML files",
+    "homepage" : "http://www.xmlsoft.org/",
+
+    "src_url" : "ftp://xmlsoft.org/${PN}/${P}.tar.gz",
+
+    "depends" : [
+        "zlib"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

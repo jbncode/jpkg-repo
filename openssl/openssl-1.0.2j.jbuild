@@ -1,0 +1,14 @@
+{
+    "description" : "Full-strength general purpose cryptography library (including SSL and TLS)",
+    "homepage" : "http://www.openssl.org/",
+
+    "src_url" : "https://www.openssl.org/source/${P}.tar.gz",
+
+    "depends" : [
+        "zlib",
+        "gmp",
+        "ca-certificates"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

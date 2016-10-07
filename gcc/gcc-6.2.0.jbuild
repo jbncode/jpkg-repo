@@ -1,0 +1,14 @@
+{
+    "description" : "GNU Compiler Collection",
+    "homepage" : "https://gcc.gnu.org/",
+
+    "src_url" : "ftp://ftp.gnu.org/gnu/gcc/${P}/${P}.tar.bz2",
+
+    "depends" : [
+        "gmp",
+        "mpc",
+        "mpfr"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

@@ -1,0 +1,17 @@
+{
+    "description" : "A high-quality and portable font engine",
+    "homepage" : "http://www.freetype.org/",
+
+    "src_url" : "http://download.savannah.gnu.org/releases/${PN}/${P}.tar.bz2",
+
+    "use" : "+bzip2 +png",
+
+    "depends" : [
+        "bzip2 ? bzip2",
+        "png ? libpng",
+        "pkgconfig",
+        "zlib"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

@@ -1,0 +1,13 @@
+{
+    "description" : "The standard GNU Bourne again shell",
+    "homepage" : "https://www.gnu.org/software/bash/",
+
+    "src_url" : "http://ftp.gnu.org/gnu/bash/${P}.tar.gz",
+
+    "depends" : [
+        "ncurses",
+        "readline"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

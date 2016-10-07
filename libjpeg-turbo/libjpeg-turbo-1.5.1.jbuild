@@ -1,0 +1,10 @@
+{
+    "description" : "MMX, SSE, and SSE2 SIMD accelerated JPEG library",
+    "homepage" : "http://libjpeg-turbo.virtualgl.org/ https://sourceforge.net/projects/libjpeg-turbo/",
+
+    "src_url" : "https://sourceforge.net/projects/${PN}/files/${PV}/${P}.tar.gz",
+
+    "depends" : [
+        "nasm"
+    ]
+}

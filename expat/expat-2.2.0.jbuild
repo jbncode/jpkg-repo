@@ -1,0 +1,6 @@
+{
+    "description" : "Stream-oriented XML parser library",
+    "homepage" : "http://expat.sourceforge.net/",
+
+    "src_url" : "https://sourceforge.net/projects/expat/files/expat/${PV}/${P}.tar.bz2"
+}

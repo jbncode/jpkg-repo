@@ -1,0 +1,8 @@
+{
+    "description" : "Utils for managing LZMA compressed files",
+    "homepage" : "http://tukaani.org/xz/",
+
+    "src_url" : "http://tukaani.org/xz/xz-${PV}.tar.bz2",
+
+    "compile_dir" : "xz-${PV}"
+}

@@ -1,0 +1,6 @@
+{
+    "description" : "A collection of binary tools (ld, ar, nm, ...)",
+    "homepage" : "https://www.gnu.org/software/binutils/",
+
+    "src_url" : "http://ftp.gnu.org/gnu/binutils/${P}.tar.bz2"
+}

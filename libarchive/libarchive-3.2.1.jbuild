@@ -1,0 +1,16 @@
+{
+    "description" : "Multi-format archive and compression library",
+    "homepage" : "http://www.libarchive.org/",
+
+    "src_url" : "http://www.libarchive.org/downloads/${P}.tar.gz",
+
+    "use" : "+bzip2 +lzma +zlib",
+
+    "depends" : [
+        "bzip2 ? bzip2",
+        "lzma ? xz-utils",
+        "zlib ? zlib"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

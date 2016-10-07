@@ -1,0 +1,14 @@
+{
+    "description" : "Simplified Wrapper and Interface Generator",
+    "homepage" : "http://www.swig.org/",
+
+    "use" : "+pcre",
+
+    "src_url" : "https://sourceforge.net/projects/swig/files/${PN}/${P}/${P}.tar.gz",
+
+    "depends" : [
+        "pcre ? pcre"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

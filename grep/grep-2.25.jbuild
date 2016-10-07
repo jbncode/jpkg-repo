@@ -1,0 +1,16 @@
+{
+    "description" : "GNU regular expression matcher",
+    "homepage" : "https://www.gnu.org/software/grep/",
+
+    "src_url" : "ftp://ftp.gnu.org/gnu/${PN}/${P}.tar.xz",
+
+    "use" : "+pcre",
+
+    "depends" : [
+        "pcre ? pcre",
+        "pkgconfig",
+        "xz-utils"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

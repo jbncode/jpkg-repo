@@ -1,0 +1,10 @@
+{
+    "description" : "Standard GNU file utilities (chmod, cp, dd, dir, ls...), text utilities (sort, tr, head, wc..), and shell utilities (whoami, who,...)",
+    "homepage" : "https://www.gnu.org/software/coreutils/",
+
+    "src_url" : "http://ftp.gnu.org/gnu/coreutils/${P}.tar.xz",
+
+    "depends" : [
+        "xz-utils"
+    ]
+}

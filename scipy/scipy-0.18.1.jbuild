@@ -1,0 +1,23 @@
+{
+    "description" : "Scientific algorithms library for Python",
+    "homepage" : "https://www.scipy.org/",
+
+    "use" : "need_fortran_compiler",
+
+    "src_url" : "https://github.com/${PN}/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz",
+
+    "depends" : [
+        "pkgconfig",
+        "openblas",
+        "python",
+        "cython",
+        "arpack",
+        "numpy",
+        "swig",
+        "need_fortran_compiler ? gcc"
+    ],
+
+    "base_buildscript" : "python",
+
+    "buildscript" : "${PN}.bash"
+}

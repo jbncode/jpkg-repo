@@ -1,0 +1,13 @@
+{
+    "description" : "Larry Wall's Practical Extraction and Report Language",
+    "homepage" : "http://www.perl.org/",
+
+    "src_url" : "http://www.cpan.org/src/5.0/${P}.tar.gz",
+
+    "depends" : [
+        "bzip2",
+        "zlib"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}

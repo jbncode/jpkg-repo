@@ -1,0 +1,18 @@
+{
+    "description" : "NAIF Spice toolkit (Fortran bindings)",
+    "homepage" : "http://naif.jpl.nasa.gov/naif/",
+
+    "src_url" : "ftp://naif.jpl.nasa.gov/pub/naif/toolkit//FORTRAN/PC_Linux_gfortran_64bit/packages/toolkit.tar.Z",
+
+    "use" : "need_fortran_compiler",
+
+    "compile_dir" : "toolkit",
+
+    "depends" : [
+        "tcsh",
+        "sed",
+        "need_fortran_compiler ? gcc"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}
