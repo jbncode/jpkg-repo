@@ -7,4 +7,6 @@ export ATLAS=""
 
 if [ $(uname) == Linux ]; then
     export LDFLAGS="$LDFLAGS -shared"
+elif [ $(uname) == Darwin ]; then
+    export LDFLAGS="$LDFLAGS -undefined dynamic_lookup"
 fi

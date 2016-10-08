@@ -6,13 +6,16 @@
 
     "compile_dir" : "${PN}-ng-${PV}",
 
+    "use" : "need_fortran_compiler",
+
     "depends" : [
         "openblas",
         "pkgconfig",
         "autoconf",
         "automake",
         "m4",
-        "libtool"
+        "libtool",
+        "need_fortran_compiler ? gcc"
     ],
 
     "buildscript" : "${PN}.bash"
