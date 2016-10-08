@@ -4,6 +4,8 @@
 
     "src_url" : "https://github.com/SHTOOLS/SHTOOLS/archive/v${PV}.tar.gz -> ${P}.tar.gz",
 
+    "use" : "need_fortran_compiler",
+
     "compile_dir" : "SHTOOLS-${PV}",
 
     "depends" : [
