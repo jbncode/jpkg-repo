@@ -10,12 +10,14 @@ function src_compile {
     export LD_RUN_PATH="${PACKAGE_INSTALL_DIR}/lib:${LD_RUN_PATH}"
 
     jmake -f Makefile-libbz2_so
-    ln -sf libbz2.so.${PV} libbz2.so
+    test -e libbz2.so.${PV} && ln -sf libbz2.so.${PV} libbz2.so
+    test -e libbz2.dylib.${PV} && ln -sf libbz2.dylib.${PV} libbz2.dylib
     jmake libbz2.a bzip2 bzip2recover
 }
 
 
 function src_install {
     jmake -j1 install
-    mv libbz2.so* "$PACKAGE_INSTALL_DIR"/lib*
+    test -e libbz2.so && mv libbz2.so* "$PACKAGE_INSTALL_DIR"/lib* || true
+    test -e libbz2.dylib && mv libbz2.dylib* "$PACKAGE_INSTALL_DIR"/lib* || true
 }

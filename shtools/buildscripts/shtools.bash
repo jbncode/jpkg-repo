@@ -22,5 +22,5 @@ function src_install {
     cp -r "man/man1" "${MAN}/"
 
     pushd "$LIB"
-    ln -s libSHTOOLS.a libshtools.a
+    ln -s libSHTOOLS.a libshtools.a || true # ignore error from ln on case-insensitive filesystems
 }
