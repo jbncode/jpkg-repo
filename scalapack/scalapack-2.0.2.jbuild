@@ -1,0 +1,17 @@
+{
+    "description" : "Subset of LAPACK routines redesigned for heterogenous (MPI) computing",
+    "homepage" : "http://www.netlib.org/scalapack/",
+
+    "src_url" : "http://www.netlib.org/${PN}/${P}.tgz",
+
+    "use" : "need_fortran_compiler",
+
+    "base_buildscript" : "cmake",
+
+    "depends" : [
+        "cmake",
+        "mpich",
+        "openblas",
+        "need_fortran_compiler ? gcc"
+    ]
+}
