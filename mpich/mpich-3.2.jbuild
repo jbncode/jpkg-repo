@@ -1,0 +1,14 @@
+{
+    "description" : "A high performance and portable MPI implementation",
+    "homepage" : "https://www.mpich.org/",
+
+    "src_url" : "http://www.mpich.org/static/downloads/${PV}/${P}.tar.gz",
+
+    "use" : "need_fortran_compiler",
+
+    "depends" : [
+        "need_fortran_compiler ? gcc"
+    ],
+
+    "buildscript" : "${PN}.bash"
+}
