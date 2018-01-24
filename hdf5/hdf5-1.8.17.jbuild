@@ -4,7 +4,7 @@
 
     "src_url" : "https://support.hdfgroup.org/ftp/HDF5/current/src/${P}.tar.bz2",
 
-    "use" : "+zlib +cxx need_fortran_compiler",
+    "use" : "+zlib +cxx +fortran2003 need_fortran_compiler",
 
     "depends" : [
         "zlib ? zlib",
